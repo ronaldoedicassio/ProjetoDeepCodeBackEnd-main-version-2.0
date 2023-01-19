@@ -83,10 +83,7 @@ This version for implementation Coordenador function.
    - Um coordenador tem, além das informações que todo professor tem, as seguintes informações
 
    - Cursos coordenados
-   Um coordenador tem, além das regras que todo professor tem, as seguintes regras:
-
-   - Sempre deve se adicionar o texto “Coord. ” antes do nome de um 
-  coordenador.
+   - Sempre deve se adicionar o texto “Coord. ” antes do nome de um coordenador.
    - Os cursos coordenados pelo coordenador devem ser do mesmo departamento ao qual ele faz parte.
 
 	<strong>ALO ALOCAÇÃO</strong>
