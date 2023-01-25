@@ -19,7 +19,7 @@ public class Professor {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@Column(name = "name", nullable = false, unique=true)
+	@Column(name = "name", nullable = false, unique = true)
 	private String name;
 
 	@Column(name = "cpf", nullable = false, unique = true)
@@ -33,6 +33,13 @@ public class Professor {
 	@ManyToOne
 	@JoinColumn(name = "department_id", nullable = false, insertable = false, updatable = false)
 	private Department department;
+
+	public Professor(String name, String cpf, Department department) {
+		super();
+		this.name = name;
+		this.cpf = cpf;
+		this.department = department;
+	}
 
 	public Professor() {
 		super();
